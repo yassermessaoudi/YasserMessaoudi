@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taha</title>
+    <link rel="icon" href="pic/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTGQ34JF5D"></script>
+    
+</head>
+<body>
+    
+    <div class="main">
+        <div class="head">
+            <div class="head1">
+                <div class="logos">
+                    <h1>ixom Yasser</h1>
+                </div>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#MyTools">My Tools</a>
+                    <a href="#contact">Contact</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                </div>
+                <script>
+                    function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                    x.className += " responsive";
+                    } else {
+                    x.className = "topnav";
+                    }
+                    }
+                </script>
+                <div class="pages">
+                    <ul>
+                        <li><a href="#home" class="ho">Home</a></li>
+                        <li><a href="#about" class="ab">About Me</a></li>
+                        <li><a href="#MyTools" class="co">My Tools</a></li>
+                        <li><a href="#contact" class="co">Contact</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <div class="home" id="home">
+            <div class="rghit">
+                <h1 id="shadow">Ysser Sete $> <br><span class="auto-type"></span></h1>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                <script>
+                    var typed2 = new Typed('.auto-type', {
+                        strings: ['Hacker', 'Programmer', 'Devloper', 'Yasser Messaoudi' , '16 Years Old'],
+                        typeSpeed: 70,
+                        backSpeed: 20,
+                        loop: true
+                    });
+                </script>
+                
+            </div>
+            <div class="social_media">
+                <a href="https://www.youtube.com/@YASSER_MESSAOUDI" class="fa fa-youtube" id="shadow"></a>
+                <a href="https://www.instagram.com/messaoudiyasser_dz/" id="shadow"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:bibolaklas1@gmail.com" id="shadow"><i class="fa fa-google"></i></a>
+                <a href="https://github.com/yassermessaoudi/PayloadsAllTheThings"><i class="fa fa-github" id="shadow"></i></a>
+                
+            </div>
+
+        </div>
+        
+        <div class="about-me" id="about">
+            <h1>ABOUT ME</h1>
+            <center>
+                <img src="pic/logo.jpg">
+            </center>
+            <p>Hi There .. I Am YASSER MESSAOUDI Frome Algerian , I Am Hacker And Programmer <br>
+            <br>
+            I Learend Four Lang: PYTHON - CSS - HTML - JAVASCRIPT , I Am 16 Years Old <br>
+            <br>
+            I Use Computer Every Day Around 7 Hours Beacuse I Love It , What About You ? .
+            </p>
+            <h5>YASSER</h5>
+        </div>
+        <div class="mytools" id="MyTools">
+            <h1>My Some Tools</h1>
+            <div class="tools-imgs">
+                <div class="tool1">
+                    <h3>SSH-BruteForce</h3>
+                    <img src="pic/ssh.png">
+                    <a href="https://github.com/yassermessaoudi/PayloadsAllTheThings">Download It!</a>
+                </div>
+                <div class="tool2">
+                    <h3>PayloadsAllTheThings</h3>
+                    <img src="pic/payloads.png">
+                    <a href="https://github.com/yassermessaoudi/PayloadsAllTheThings">Download It!</a>
+                </div>
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact1">
+                <form >
+                    <h3>Contact Me</h3>
+                    <input type="text" id="name" placeholder="YOUR NAME" required>
+                    <input type="text" id="email" placeholder="YOUR EMAIL" required>
+                    <input type="text" id="subject" placeholder="SUBJECT" required>
+                    <textarea id="messege" rows="4" placeholder="MESSEGE"></textarea>
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+            <div class="my_acc">
+                <h3>My Accounts</h3>
+                <a href="https://www.youtube.com/@YASSER_MESSAOUDI" class="fa fa-youtube" id="shadow"></a>
+                <a href="https://www.instagram.com/messaoudiyasser_dz/" id="shadow"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:bibolaklas1@gmail.com" id="shadow"><i class="fa fa-google"></i></a>
+                <a href="https://github.com/yassermessaoudi/PayloadsAllTheThings"><i class="fa fa-github" id="shadow"></i></a>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
